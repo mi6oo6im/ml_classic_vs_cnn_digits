@@ -4,7 +4,7 @@
 ---
 
 ### Abstract:
-This project explores the performance differences between classical machine learning (ML) models and artificial neural networks (ANNs) for recognizing handwritten digits, using the MNIST dataset. We evaluate three classical ML models: Logistic Regression, Decision Tree, and Random Forest, and compare their performance metrics against a Convolutional Neural Network (CNN), which is a popular deep learning architecture for image recognition tasks. The comparison will be based on precision, recall, F1-score, and accuracy. The best-performing classical ML model will undergo hyperparameter tuning using GridSearchCV algorithm, and its optimized performance will be compared with that of the CNN model. This approach aims to identify the most efficient and accurate model for handwritten digit recognition and analyze their relative strengths and weaknesses.
+This project explores the performance differences between classical machine learning (ML) models and artificial neural networks (ANNs) for recognizing handwritten digits, using the MNIST dataset. We evaluate three classical ML models: Logistic Regression, Decision Tree, and Random Forest, and compare their performance metrics against a Artificial Neural Network (ANN), which is a popular deep learning architecture for image recognition tasks. The comparison will be based on precision, recall, F1-score, and accuracy. The best-performing classical ML model will undergo hyperparameter tuning using GridSearchCV algorithm, and its optimized performance will be compared with that of the ANN model. This approach aims to identify the most efficient and accurate model for handwritten digit recognition and analyze their relative strengths and weaknesses.
 
 ---
 
@@ -13,7 +13,7 @@ This project explores the performance differences between classical machine lear
 #### 1. Introduction:
 - Overview of handwritten digit recognition.
 - Importance of the MNIST dataset in ML and AI.
-- Research question: Is an ANN (CNN) significantly better than classical ML models?
+- Research question: Is an ANN (FFNN) significantly better than classical ML models?
 
 #### 2. Background:
 - Explanation of classical ML models:
@@ -21,7 +21,7 @@ This project explores the performance differences between classical machine lear
   - **Decision Tree**: A tree-structured model for decision-making.
   - **Random Forest**: An ensemble of decision trees to improve generalization and accuracy.
 - Overview of **Artificial Neural Networks**:
-  - Focus on **Convolutional Neural Networks (CNNs)**: A neural network architecture specifically designed for image recognition.
+  - Focus on **Feed Forward Neural Networks (FFNNs)**: A neural network architecture specifically designed for image recognition.
 
 #### 3. Dataset:
 - Description of the MNIST dataset:
@@ -42,7 +42,7 @@ This project explores the performance differences between classical machine lear
     - Accuracy
   - Selection of the best-performing classical ML model based on the evaluation metrics.
   - Hyperparameter tuning of the selected classical ML model to optimize performance.
-  - **Convolutional Neural Network** (ANN-based model).
+  - **Feed Forward Neural Network** (ANN-based model).
 - Cross-validation techniques and split between training and testing data.
 
 #### 5. Performance Metrics:
@@ -54,14 +54,14 @@ This project explores the performance differences between classical machine lear
 #### 6. Results and Analysis:
 - Presentation of the results from each classical ML model.
 - Results of hyperparameter tuning for the best-performing classical ML model.
-- Comparison of optimized classical ML model with CNN.
+- Comparison of optimized classical ML model with FFNN.
 - Discussion on strengths and limitations of each approach.
 
 #### 7. Conclusion:
 - Summary of findings.
-- Answering the research question: Does CNN significantly outperform classical ML models?
+- Answering the research question: Does FFNN significantly outperform classical ML models?
 - Insights from hyperparameter tuning on classical ML models.
-- Considerations for practical use cases of CNNs vs classical models in real-world applications.
+- Considerations for practical use cases of FFNNs vs classical models in real-world applications.
 
 #### 8. Future Work:
 - Suggestions for improving model performance (e.g., advanced hyperparameter tuning, data augmentation).
