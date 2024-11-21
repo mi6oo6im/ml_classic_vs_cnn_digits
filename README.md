@@ -13,7 +13,7 @@ This project explores the performance differences between classical machine lear
 #### 1. Introduction:
 - Overview of handwritten digit recognition.
 - Importance of the MNIST dataset in ML and AI.
-- Research question: Is an ANN (FFNN) significantly better than classical ML models?
+- Research question: Is an ANN (FNN) significantly better than classical ML models?
 
 #### 2. Background:
 - Explanation of classical ML models:
@@ -21,7 +21,7 @@ This project explores the performance differences between classical machine lear
   - **Decision Tree**: A tree-structured model for decision-making.
   - **Random Forest**: An ensemble of decision trees to improve generalization and accuracy.
 - Overview of **Artificial Neural Networks**:
-  - Focus on **Feed Forward Neural Networks (FFNNs)**: A neural network architecture specifically designed for image recognition.
+  - Focus on **Feed Forward Neural Networks (FNNs)**: A neural network architecture specifically designed for image recognition.
 
 #### 3. Dataset:
 - Description of the MNIST dataset:
@@ -54,14 +54,14 @@ This project explores the performance differences between classical machine lear
 #### 6. Results and Analysis:
 - Presentation of the results from each classical ML model.
 - Results of hyperparameter tuning for the best-performing classical ML model.
-- Comparison of optimized classical ML model with FFNN.
+- Comparison of optimized classical ML model with FNN.
 - Discussion on strengths and limitations of each approach.
 
 #### 7. Conclusion:
 - Summary of findings.
-- Answering the research question: Does FFNN significantly outperform classical ML models?
+- Answering the research question: Does FNN significantly outperform classical ML models?
 - Insights from hyperparameter tuning on classical ML models.
-- Considerations for practical use cases of FFNNs vs classical models in real-world applications.
+- Considerations for practical use cases of FNNs vs classical models in real-world applications.
 
 #### 8. Future Work:
 - Suggestions for improving model performance (e.g., advanced hyperparameter tuning, data augmentation).
